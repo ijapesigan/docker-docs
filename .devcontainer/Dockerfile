@@ -1,1 +1,1 @@
-FROM jeksterslab/rocker
+FROM ijapesigan/rocker
