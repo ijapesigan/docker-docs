@@ -1,6 +1,6 @@
 FROM ijapesigan/rocker
 
-ADD tools /usr/src/local/src
+ADD scripts /usr/src/local/src
 RUN cd /usr/src/local/src     && \
     chmod 777 setup.sh        && \
     ./setup.sh                && \
