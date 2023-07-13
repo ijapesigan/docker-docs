@@ -8,8 +8,7 @@ Ivan Jacob Agaloos Pesigan
 
 [![Docker Build and
 Push](https://github.com/ijapesigan/docker-docs/actions/workflows/docker-build-push.yml/badge.svg)](https://github.com/ijapesigan/docker-docs/actions/workflows/docker-build-push.yml)
-[![Docker Build and Push (Daily at
-05:00:00)](https://github.com/ijapesigan/docker-docs/actions/workflows/docker-build-push-daily-rocker.yml/badge.svg)](https://github.com/ijapesigan/docker-docs/actions/workflows/docker-build-push-daily-docs.yml)
+[![Docker Build and Push (Daily at 05:00:00)](https://github.com/ijapesigan/docker-docs/actions/workflows/docker-build-push-daily-rocker.yml/badge.svg)](https://github.com/ijapesigan/docker-docs/actions/workflows/docker-build-push-daily-docs.yml)
 <!-- badges: end -->
 
 ## Description
