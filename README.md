@@ -1,7 +1,7 @@
 ijapesigan/docs
 ================
 Ivan Jacob Agaloos Pesigan
-2023-07-10
+2023-07-13
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -10,6 +10,8 @@ Ivan Jacob Agaloos Pesigan
 Push](https://github.com/ijapesigan/docker-docs/actions/workflows/docker-build-push.yml/badge.svg)](https://github.com/ijapesigan/docker-docs/actions/workflows/docker-build-push.yml)
 [![Docker Build and Push
 (Daily)](https://github.com/ijapesigan/docker-docs/actions/workflows/docker-build-push-daily.yml/badge.svg)](https://github.com/ijapesigan/docker-docs/actions/workflows/docker-build-push-daily.yml)
+[![Docker Build and Push (Daily at
+00:01:00)](https://github.com/ijapesigan/docker-docs/actions/workflows/docker-build-push-daily-rocker.yml/badge.svg)](https://github.com/ijapesigan/docker-docs/actions/workflows/docker-build-push-daily-docs.yml)
 <!-- badges: end -->
 
 ## Description
