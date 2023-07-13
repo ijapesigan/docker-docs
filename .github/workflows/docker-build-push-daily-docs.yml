@@ -1,14 +1,15 @@
-name: Docker Build and Push (Daily at 01:00:00)
+name: Docker Build and Push (Daily at 05:00:00)
 
 on:
   schedule:
-    - cron: "0 1 * * *"
+    - cron: "0 5 * * *"
   workflow_dispatch:
 
 jobs:
 
   build:
     runs-on: ubuntu-latest
+
     steps:
       -
         name: Checkout 
