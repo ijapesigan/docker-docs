@@ -18,9 +18,7 @@ project <- "docker-docs"
 
 pkg_cran <- c()
 
-pkg_github <- c(
-  "ijapesigan/rProject"
-)
+pkg_github <- c()
 
 pkg_github_ref <- c()
 
