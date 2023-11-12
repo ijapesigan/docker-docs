@@ -1,7 +1,7 @@
 ijapesigan/docs
 ================
 Ivan Jacob Agaloos Pesigan
-2023-11-10
+2023-11-12
 
 <!-- README.md is generated from .setup/readme/README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -9,11 +9,11 @@ Ivan Jacob Agaloos Pesigan
 [![Make
 Project](https://github.com/ijapesigan/docker-docs/actions/workflows/make.yml/badge.svg)](https://github.com/ijapesigan/docker-docs/actions/workflows/make.yml)
 [![Docker Build and Push (Daily at
-05:00:00)](https://github.com/ijapesigan/docker-docs/actions/workflows/docker-build-push-daily-docs.yml/badge.svg)](https://github.com/ijapesigan/docker-docs/actions/workflows/docker-build-push-daily-docs.yml)
-[![Docker Build and
-Push](https://github.com/ijapesigan/docker-docs/actions/workflows/docker-build-push.yml/badge.svg)](https://github.com/ijapesigan/docker-docs/actions/workflows/docker-build-push.yml)
-[![Docker and Apptainer
-Build](https://github.com/ijapesigan/docker-docs/actions/workflows/docker-apptainer-build.yml/badge.svg)](https://github.com/ijapesigan/docker-docs/actions/workflows/docker-apptainer-build.yml)
+06:00:00)](https://github.com/ijapesigan/docker-docs/actions/workflows/docker-build-push-daily-docs.yml/badge.svg)](https://github.com/ijapesigan/docker-docs/actions/workflows/docker-build-push-daily-docs.yml)
+[![Docker Build and Push
+\[amd64/arm64\]](https://github.com/ijapesigan/docker-docs/actions/workflows/docker-build-push-amd64-arm64.yml/badge.svg)](https://github.com/ijapesigan/docker-docs/actions/workflows/docker-build-push-amd64-arm64.yml)
+[![Docker and Apptainer Build
+\[amd64\]](https://github.com/ijapesigan/docker-docs/actions/workflows/docker-apptainer-build-amd64.yml/badge.svg)](https://github.com/ijapesigan/docker-docs/actions/workflows/docker-apptainer-build-amd64.yml)
 [![Shell
 Check](https://github.com/ijapesigan/docker-docs/actions/workflows/shellcheck.yml/badge.svg)](https://github.com/ijapesigan/docker-docs/actions/workflows/shellcheck.yml)
 <!-- badges: end -->
