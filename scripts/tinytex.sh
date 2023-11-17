@@ -2,6 +2,10 @@
 
 set -e
 
+# tinytex
+install2.r --error --skipinstalled -n -1 \
+    tinytex
+
 # uninstall tinytex
 R -e "                                       \
     tinytex::uninstall_tinytex(force = TRUE) \
