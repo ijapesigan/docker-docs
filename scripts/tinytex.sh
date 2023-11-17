@@ -7,8 +7,8 @@ install2.r --error --skipinstalled -n -1 \
     tinytex
 
 # uninstall tinytex
-R -e "                                       \
-    tinytex::uninstall_tinytex(force = TRUE) \
+R -e "                                            \
+    try(tinytex::uninstall_tinytex(force = TRUE)) \
 "
 
 # install tinytex package
