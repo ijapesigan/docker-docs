@@ -9,7 +9,7 @@ Ivan Jacob Agaloos Pesigan
 [![Make
 Project](https://github.com/ijapesigan/docker-docs/actions/workflows/make.yml/badge.svg)](https://github.com/ijapesigan/docker-docs/actions/workflows/make.yml)
 [![Docker Build and Push (Daily at
-06:00:00)](https://github.com/ijapesigan/docker-docs/actions/workflows/docker-build-push-daily-docs.yml/badge.svg)](https://github.com/ijapesigan/docker-docs/actions/workflows/docker-build-push-daily-docs.yml)
+17:00:00)](https://github.com/ijapesigan/docker-docs/actions/workflows/docker-build-push-daily-docs.yml/badge.svg)](https://github.com/ijapesigan/docker-docs/actions/workflows/docker-build-push-daily-docs.yml)
 [![Docker Build and Push
 \[amd64/arm64\]](https://github.com/ijapesigan/docker-docs/actions/workflows/docker-build-push-amd64-arm64.yml/badge.svg)](https://github.com/ijapesigan/docker-docs/actions/workflows/docker-build-push-amd64-arm64.yml)
 [![Docker and Apptainer Build
