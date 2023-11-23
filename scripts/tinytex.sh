@@ -12,11 +12,11 @@ R -e "                                            \
 "
 
 # install tinytex package
-R -e "tinytex::install_tinytex( \
+R -e "try(tinytex::install_tinytex( \
     bundle = 'TinyTeX-2',       \
     force = TRUE,               \
     dir =  '/opt/TinyTeX'       \
-)"
+))"
 
 # Check tinytex
 echo -e "Check tinytex...\n"
