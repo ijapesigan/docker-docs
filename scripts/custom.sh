@@ -2,6 +2,22 @@
 
 set -e
 
+# Directories
+DEFAULT_USER=${DEFAULT_USER:-"rstudio"}
+
+## working directory folder
+mkdir -p "/home/${DEFAULT_USER}/working-dir"
+cd "/home/${DEFAULT_USER}/working-dir"
+wget https://raw.githubusercontent.com/ijapesigan/rProject/main/project.Rproj
+echo "session-default-working-dir=/home/${DEFAULT_USER}/working-dir" >> /etc/rstudio/rsession.conf
+chown -R "${DEFAULT_USER}:${DEFAULT_USER}" "/home/${DEFAULT_USER}/working-dir"
+
+## project folder
+mkdir -p "/home/${DEFAULT_USER}/project-dir"
+cd "/home/${DEFAULT_USER}/project-dir"
+echo "session-default-new-project-dir=/home/${DEFAULT_USER}/project-dir" >> /etc/rstudio/rsession.conf
+chown -R "${DEFAULT_USER}:${DEFAULT_USER}" "/home/${DEFAULT_USER}/project-dir"
+
 # build
 
 GIT_HUB_USERNAME=ijapesigan
