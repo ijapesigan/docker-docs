@@ -9,6 +9,10 @@ ENV DEFAULT_USER=rstudio
 ENV PANDOC_VERSION=default
 ENV QUARTO_VERSION=default
 
+RUN /rocker_scripts/install_rstudio.sh latest
+RUN /rocker_scripts/install_pandoc.sh
+RUN /rocker_scripts/install_quarto.sh
+
 # custom
 
 ADD scripts /usr/src/local/src
