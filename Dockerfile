@@ -10,7 +10,7 @@ ENV PANDOC_VERSION=default
 ENV QUARTO_VERSION=default
 ENV UBUNTU_CODENAME=jammy
 
-RUN /rocker_scripts/install_rstudio.sh latest
+RUN /rocker_scripts/install_rstudio.sh
 RUN /rocker_scripts/install_pandoc.sh
 RUN /rocker_scripts/install_quarto.sh
 
