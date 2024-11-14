@@ -1,7 +1,7 @@
 ijapesigan/docs
 ================
 Ivan Jacob Agaloos Pesigan
-2024-10-31
+2024-11-14
 
 <!-- README.md is generated from .setup/readme/README.Rmd. Please edit that file -->
 
@@ -15,6 +15,8 @@ Project](https://github.com/ijapesigan/docker-docs/actions/workflows/make.yml/ba
 \[amd64/arm64\]](https://github.com/ijapesigan/docker-docs/actions/workflows/docker-build-push-amd64-arm64.yml/badge.svg)](https://github.com/ijapesigan/docker-docs/actions/workflows/docker-build-push-amd64-arm64.yml)
 [![Docker and Apptainer Build
 \[amd64\]](https://github.com/ijapesigan/docker-docs/actions/workflows/docker-apptainer-build-amd64.yml/badge.svg)](https://github.com/ijapesigan/docker-docs/actions/workflows/docker-apptainer-build-amd64.yml)
+[![Docker Build and Push Docs \[amd64\]
+(Daily)](https://github.com/ijapesigan/docker-docs/actions/workflows/docker-build-push-daily-amd64-docs.yml/badge.svg)](https://github.com/ijapesigan/docker-docs/actions/workflows/docker-build-push-daily-amd64-docs.yml)
 [![Shell
 Check](https://github.com/ijapesigan/docker-docs/actions/workflows/shellcheck.yml/badge.svg)](https://github.com/ijapesigan/docker-docs/actions/workflows/shellcheck.yml)
 <!-- badges: end -->
