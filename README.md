@@ -1,7 +1,7 @@
 ijapesigan/docs
 ================
 Ivan Jacob Agaloos Pesigan
-2024-12-30
+2025-01-01
 
 <!-- README.md is generated from .setup/readme/README.Rmd. Please edit that file -->
 
@@ -9,8 +9,8 @@ Ivan Jacob Agaloos Pesigan
 
 [![Make
 Project](https://github.com/ijapesigan/docker-docs/actions/workflows/make.yml/badge.svg)](https://github.com/ijapesigan/docker-docs/actions/workflows/make.yml)
-[![Docker Build and Push (Daily at
-21:00:00)](https://github.com/ijapesigan/docker-docs/actions/workflows/docker-build-push-daily-docs.yml/badge.svg)](https://github.com/ijapesigan/docker-docs/actions/workflows/docker-build-push-daily-docs.yml)
+[![Docker Build and Push \[amd64/arm64\] (Daily at
+3:00:00)](https://github.com/ijapesigan/docker-docs/actions/workflows/docker-build-push-daily-docs.yml/badge.svg)](https://github.com/ijapesigan/docker-docs/actions/workflows/docker-build-push-daily-docs.yml)
 [![Docker Build and Push
 \[amd64/arm64\]](https://github.com/ijapesigan/docker-docs/actions/workflows/docker-build-push-amd64-arm64.yml/badge.svg)](https://github.com/ijapesigan/docker-docs/actions/workflows/docker-build-push-amd64-arm64.yml)
 [![Docker and Apptainer Build
