@@ -39,3 +39,11 @@ Open `http://localhost:8787` on your web browser to launch
 
 - username: rstudio
 - password: yourpassword
+
+## Apptainer Container
+
+To build the Singularity Image File (SIF), run the following.
+
+``` bash
+apptainer pull docs.sif docker://ijapesigan/docs:latest
+```
