@@ -1,3 +1,6 @@
+#!/bin/bash
+set -e
+
 arch=$(uname -m)
 
 if [[ "$arch" == "x86_64" ]]; then
