@@ -16,16 +16,31 @@ R -e "                                       \
   )                                          \
 "
 
-# install tinytex package
-R -e "                        \
-  try(                        \
-    tinytex::install_tinytex( \
-      bundle = 'TinyTeX-2',   \
-      force = TRUE,           \
-      dir =  '/opt/TinyTeX'   \
-    )                         \
-  )                           \
-"
+arch=$(uname -m)
+
+if [[ "$arch" == "x86_64" ]]; then
+  # install tinytex package
+  R -e "                        \
+    try(                        \
+      tinytex::install_tinytex( \
+        bundle = 'TinyTeX-2',   \
+        force = TRUE,           \
+        dir =  '/opt/TinyTeX'   \
+      )                         \
+    )                           \
+  "
+else
+  # install tinytex package
+  R -e "                        \
+    try(                        \
+      tinytex::install_tinytex( \
+        bundle = 'TinyTeX',     \
+        force = TRUE,           \
+        dir =  '/opt/TinyTeX'   \
+      )                         \
+    )                           \
+  "
+fi
 
 # Check tinytex
 echo -e "Check tinytex...\n"
