@@ -34,7 +34,7 @@ else
   R -e "                        \
     try(                        \
       tinytex::install_tinytex( \
-        bundle = 'TinyTeX',     \
+        bundle = 'TinyTeX-1',   \
         force = TRUE,           \
         dir =  '/opt/TinyTeX'   \
       )                         \
