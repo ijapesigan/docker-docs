@@ -8,4 +8,5 @@ bash tinytex.sh
 bash apptainer.sh
 bash radian.sh
 bash custom.sh
+bash uv.sh
 bash post.sh
