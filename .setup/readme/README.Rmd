@@ -18,8 +18,8 @@ knitr::opts_chunk$set(
 
 <!-- badges: start -->
 [![Make Project](https://github.com/ijapesigan/docker-docs/actions/workflows/make.yml/badge.svg)](https://github.com/ijapesigan/docker-docs/actions/workflows/make.yml)
-[![Docker Build and Push [amd64/arm64]](https://github.com/ijapesigan/docker-docs/actions/workflows/docker-build-push-amd64-arm64.yml/badge.svg)](https://github.com/ijapesigan/docker-docs/actions/workflows/docker-build-push-amd64-arm64.yml)
-[![Docker Build and Push [amd64/arm64] (Daily)](https://github.com/ijapesigan/docker-docs/actions/workflows/docker-build-push-daily-docs.yml/badge.svg)](https://github.com/ijapesigan/docker-docs/actions/workflows/docker-build-push-daily-docs.yml)
+[![Docker Build and Push [multi]](https://github.com/ijapesigan/docker-docs/actions/workflows/docker-build-push-multi.yml/badge.svg)](https://github.com/ijapesigan/docker-docs/actions/workflows/docker-build-push-multi.yml)
+[![Docker Build and Push Docs [multi] (Daily)](https://github.com/ijapesigan/docker-docs/actions/workflows/docker-build-push-daily-multi-docs.yml/badge.svg)](https://github.com/ijapesigan/docker-docs/actions/workflows/docker-build-push-daily-multi-docs.yml)
 [![Shell Check](https://github.com/ijapesigan/docker-docs/actions/workflows/shellcheck.yml/badge.svg)](https://github.com/ijapesigan/docker-docs/actions/workflows/shellcheck.yml)
 <!-- badges: end -->
 
