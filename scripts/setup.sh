@@ -18,6 +18,7 @@ bash rproject.sh
 bash tinytex.sh
 bash apptainer.sh
 bash radian.sh
+bash btop.sh
 bash custom.sh
 bash uv.sh
 bash post.sh
