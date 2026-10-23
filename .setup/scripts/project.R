@@ -18,6 +18,17 @@
 
 project <- "docker-docs"
 
+type <- "docker"
+
+workflows <- c(
+  "docker-build-push-multi",
+  "docker-build-push-daily-multi"
+)
+
+workflow_daily <- "docs"
+
+workflow_title <- "Docker Build and Push Docs [multi] (Daily)"
+
 rproject_ver <- NULL
 
 pkg_cran <- c()

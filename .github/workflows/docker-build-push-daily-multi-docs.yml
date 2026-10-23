@@ -3,8 +3,8 @@
 name: Docker Build and Push Docs [multi] (Daily)
 
 on:
-  schedule:
-    - cron: "30 3 * * *"
+  repository_dispatch:
+    types: [base-image-built]
   workflow_dispatch:
 
 env:
