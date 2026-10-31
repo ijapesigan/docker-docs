@@ -30,6 +30,18 @@ Source: <https://github.com/ijapesigan/docker-docs>.
 
 ## Use
 
+RStudio Server (Docker):
+
+``` bash
+docker run --rm -ti -e PASSWORD=yourpassword -p 127.0.0.1:8787:8787 ijapesigan/docs
+```
+
+Open `http://localhost:8787` in a web browser to launch RStudio Server
+(`127.0.0.1` keeps it on this computer).
+
+- username: rstudio
+- password: yourpassword
+
 Docker (Docker Hub or the GitHub Container Registry):
 
 ``` bash
