@@ -21,4 +21,6 @@ bash radian.sh
 bash btop.sh
 bash custom.sh
 bash uv.sh
+bash figures.sh
+bash agents.sh
 bash post.sh
