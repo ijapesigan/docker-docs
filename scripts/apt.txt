@@ -7,3 +7,9 @@ valgrind
 # scanned PDFs
 ocrmypdf
 tesseract-ocr
+
+# agents: images, shell format, code counts, databases
+imagemagick
+shfmt
+cloc
+sqlite3
