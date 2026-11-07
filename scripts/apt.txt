@@ -1,0 +1,9 @@
+# System packages wanted, one per line (install-apt.sh).
+
+# debugging C++
+gdb
+valgrind
+
+# scanned PDFs
+ocrmypdf
+tesseract-ocr

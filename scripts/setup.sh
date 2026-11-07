@@ -13,6 +13,7 @@ else
     echo "GITHUB_PAT NOT set"
 fi
 
+bash install-apt.sh
 bash rproject_sys.sh
 bash rproject.sh
 bash tinytex.sh
