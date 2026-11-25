@@ -23,5 +23,7 @@ bash btop.sh
 bash custom.sh
 bash uv.sh
 bash figures.sh
+bash install-cran.sh
 bash agents.sh
+bash check.sh
 bash post.sh

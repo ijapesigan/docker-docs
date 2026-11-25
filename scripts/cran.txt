@@ -1,0 +1,6 @@
+# CRAN packages wanted, one per line, never their dependencies
+# (install-cran.sh; their system libraries are looked up by pak)
+
+# Figures: GIF and video
+av
+gifski

@@ -50,6 +50,12 @@ apptainer pull docs.sif docker://ijapesigan/docs
 apptainer shell docs.sif
 ```
 
+## Contents
+
+R packages from CRAN (`scripts/cran.txt`), with their dependencies:
+
+- Figures: GIF and video: av, gifski
+
 ## Builds
 
 - Docker Build and Push Docs \[multi\] (Daily)

@@ -30,8 +30,6 @@ apt_install           \
     ffmpeg            \
     libavfilter-dev
 
-install2.r --error --skipmissing --skipinstalled -n -1 \
-    av                \
-    gifski
+# the R packages av and gifski are in cran.txt (install-cran.sh, after this)
 
 echo -e "\nInstall fonts and figure tools, done!"
